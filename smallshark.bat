@@ -19,7 +19,6 @@ goto EXIT)
 
 echo Found Visual Studio 2013. 
 echo.
-goto SHARK
 
 :: obtain boost from internet. use 1.55
 tools\SlikSvn\bin\svn.exe co https://svn.boost.org/svn/boost/tags/release/Boost_1_55_0 boost

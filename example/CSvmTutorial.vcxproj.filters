@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <CustomBuild Include="CMakeLists.txt" />
+    <CustomBuild Include="Supervised\CSvmTutorial.tpp" />
+  </ItemGroup>
+  <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{13EC80E6-98F8-47A1-BE1B-E9505690A683}</UniqueIdentifier>
+      <UniqueIdentifier>{F0EBF3E9-6EAD-4E5C-91A6-1F3B6F6F0244}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CSvmTutorial.cpp">
+    <ClCompile Include="Source\CSvmTutorial.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
