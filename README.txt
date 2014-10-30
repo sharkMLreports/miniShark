@@ -30,3 +30,18 @@ by starting cmake by hand, or reextracting the archive and
 rerunning the script. 
 
 
+Usage
+=====
+
+1. Extract the .zip file into an empty folder
+	(Alternatively, download the archive via git from
+	https://github.com/sharkMLreports/miniShark)
+2. Double-click the 'miniShark.bat' file.
+3. Wait for a long time (45-60+ minutes)
+4. When everything is finished, Visual Studio 2013
+	will have been opened with an example tutorial solution.
+5. Press CTRL+F5 to compile.
+
+Note: The example solution only has Release configuration.
+Debug is not supported for now.
+
